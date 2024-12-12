@@ -1,0 +1,7 @@
+openai
+anthropic
+requests
+datasets
+scikit-learn
+matplotlib
+python-dotenv
