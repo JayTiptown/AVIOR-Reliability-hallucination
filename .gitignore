@@ -1,0 +1,64 @@
+# Ignore API keys and secret files
+.env
+secrets.json
+api_keys.yaml
+config.ini
+
+# Ignore Python virtual environment files
+venv/
+.env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore outputs and temporary files
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*.aux
+*.toc
+*.dvi
+*.bbl
+*.blg
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore large data files
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+
+# Ignore generated models or checkpoints
+models/
+checkpoints/
+*.h5
+*.pt
+*.ckpt
+
+# Ignore results or analysis output
+results/
+figures/
+*.png
+*.jpg
+*.pdf
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Colab session-specific files
+content/
+drive/
+
+# Ignore personal or system-specific files
+*.DS_Store
+Thumbs.db
